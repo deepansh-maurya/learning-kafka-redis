@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "pro": "tsc -b &&  nodemon dist/index.js",
+    "con": "tsc -b && nodemon dist/consumer.js"
+  },
+  "dependencies": {
+    "@types/node": "^22.14.1",
+    "g": "^2.0.1",
+    "kafkajs": "^2.2.4",
+    "nodemon": "^3.1.9",
+    "redis": "^4.7.0",
+    "typescript": "^5.8.3"
+  }
+}
